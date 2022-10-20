@@ -1,60 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        img {
-            height: 150px;
-            /* 消除下方自動產生的空間，只要值不是baseline都可以消掉 */
-            vertical-align: middle;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img {
+      height: 150px;
+      /* 消除掉下方自動產生的空間，只要值不是 baseline 都可以消掉 */
+      vertical-align: middle;
+    }
 
-        table {
-            margin: auto;
-            text-align: center;
-            border-collapse: collapse;
-        }
+    table {
+      margin: auto;
+      text-align: center;
+      border-collapse: collapse;
+    }
 
-        table,
-        td {
-            border: 1px solid #333;
-        }
+    table,
+    td {
+      border: 1px solid #333;
+    }
 
-        td:nth-child(1) {
-            width: 200px;
-            height: 150px;
-        }
+    td:nth-child(1) {
+      width: 200px;
+      height: 150px;
+    }
 
-        td:nth-child(2),
-        td:nth-child(3) {
-            width: 300px;
-            height: 150px;
-        }
-    </style>
+    td:nth-child(2),
+    td:nth-child(3) {
+      width: 300px;
+      height: 150px;
+    }
+  </style>
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td><a href="./results/purchase.html" target="iframe">流行皮件</a></td>
-            <td><a href="./results/leather1.html" target="_blank"><img src="./images/0403.jpg"></a></td>
-            <td><a href="./results/leather2.html" target="_blank"><img src="./images/0404.jpg"></a></td>
-        </tr>
-        <tr>
-            <td>流行鞋區</td>
-            <td><img src="./images/0405.jpg"></td>
-            <td><img src="./images/0406.jpg"></td>
-        </tr>
-        <tr>
-            <td>流行飾品</td>
-            <td><img src="./images/0407.jpg"></td>
-            <td><img src="./images/0408.jpg"></td>
-        </tr>
-    </table>
+  <table>
+    <tr>
+      <!-- 三個都有 target 要設定 -->
+      <td><a href="./results/purchase.html" target="iframe">流行皮件</a></td>
+      <td><a href="./results/leather1.html" target="_blank"><img src="./images/0403.jpg"></a></td>
+      <td><a href="./results/leather2.html" target="_blank"><img src="./images/0404.jpg"></a></td>
+    </tr>
+    <tr>
+      <td>流行鞋區</td>
+      <td><img src="./images/0405.jpg"></td>
+      <td><img src="./images/0406.jpg"></td>
+    </tr>
+    <tr>
+      <td>流行飾品</td>
+      <td><img src="./images/0407.jpg"></td>
+      <td><img src="./images/0408.jpg"></td>
+    </tr>
+  </table>
 </body>
 
 </html>
